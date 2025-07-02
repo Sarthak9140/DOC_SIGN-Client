@@ -1,74 +1,104 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 🖋️ DOC_SIGN – Digital Document Signing App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+DOC_SIGN is a full-stack web application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) that allows users to **sign PDF documents online** with two modes: **Normal Signature** and **Sign Pad**. It offers a seamless and user-friendly experience for uploading, signing, and saving documents with drag-and-drop functionality to place the signature wherever needed.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔗 Live Demo
 
-### `npm start`
+> *Coming soon or Add your deployment link here*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Features
 
-### `npm test`
+- 🔐 **Authentication**
+  - User Signup & Login
+  - JWT-based session handling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 📄 **PDF Upload**
+  - Upload any PDF file to sign
 
-### `npm run build`
+- ✍️ **Two Types of Signatures**
+  - **Normal Sign**: Type your name and select from multiple fonts
+  - **Draw Sign**: Draw your signature using a digital pad
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🖱️ **Drag and Position Signature**
+  - After creating your signature, **drag and place it anywhere** on the document as per your choice
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 💾 **Save Signed PDF**
+  - Download or save the document with the signature embedded
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 📱 **Responsive UI**
+  - Optimized for both desktop and mobile views with a clean, modern look
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Frontend        | Backend         | Database       | Others                   |
+|----------------|-----------------|----------------|--------------------------|
+| React.js       | Node.js         | MongoDB Atlas  | JWT for Auth             |
+| Tailwind CSS   | Express.js      | Mongoose ORM   | File handling with Multer|
+| React-PDF      |                 |                | HTML2Canvas & jsPDF      |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📷 Screenshots
 
-## Learn More
+| Login | 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| ![Login](./screenshots/login.png) | 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Signup |
+![Signup](./screenshots/signup.png) |
 
-### Code Splitting
+| Upload PDF | 
+| ![Upload](./screenshots/uploadPdf.png) |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Signature Option |
+| ![Signature Option](./screenshots/signing.png) |
 
-### Analyzing the Bundle Size
+| Normal Signature Option |
+| ![Normal Signature Option](./screenshots/NormalSign.png) |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+| Signature Pad Option |
+| ![Signature Pad Option](./screenshots/SignPad.png) |
 
-### Making a Progressive Web App
+| Signature Submit |
+| ![Signature Submit](./screenshots/signing.png) |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## 🧑‍💻 Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Sarthak9140/doc_sign.git
+cd doc_sign
 
-### Deployment
+2. Setup Server
+cd server
+npm install
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. Setup Client
+cd client
+npm install
+npm start
+Make sure MongoDB is running and update your environment variables accordingly in both client/.env and server/.env.
 
-### `npm run build` fails to minify
+📂 Folder Structure
+doc_sign/
+├── client/         # React frontend
+│   └── src/
+│       └── components/
+├── index /         # Node.js backend
+│   └── routes/
+│   └── controllers/
+│   └── middlewares/
+│   └── models/
+✍️ Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# DOC_SIGN-Client
->>>>>>> ac7fcb249d9f579b1dd612413b6606c3ed3f2211
+Sarthak Singh
+IT Intern | MERN , Java, Python
+LinkedIn • GitHub
